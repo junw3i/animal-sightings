@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+.instructions {
+  line-height: 1.6;
+  margin: 1rem 0;
+  border: 1px solid rgba(var(--accent), 25%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+.instructions code {
+  font-size: 0.875em;
+  font-weight: bold;
+  background: rgba(var(--accent), 12%);
+  color: rgb(var(--accent));
+  border-radius: 4px;
+  padding: 0.3em 0.45em;
+}
+.instructions strong {
+  color: rgb(var(--accent));
+}
+.link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+  gap: 1rem;
+  padding: 0;
+}
+
+.rhomboid {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* -webkit-transform: skew(var(--skew-value-inverse));
+  -moz-transform: skew(var(--skew-value-inverse));
+  -o-transform: skew(var(--skew-value-inverse));
+  transform: skew(var(--skew-value-inverse)); */
+  animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+}
+.title {
+  /* -webkit-transform: skew(var(--skew-value));
+  -moz-transform: skew(var(--skew-value));
+  -o-transform: skew(var(--skew-value));
+  transform: skew(var(--skew-value)); */
+  animation: skew-inverse 3s infinite;
+  transform: skew(-20deg);
+  animation-direction: alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+@keyframes skew-inverse {
+  0% {
+    transform: skewX(-20deg);
+  }
+  100% {
+    transform: skewX(20deg);
+  }
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  transition-delay: 0.1s;
+  opacity: 0;
+}
+
+.close-button {
+  transform: rotate(45deg);
+  transition: transform 0.1s ease-in-out;
+}
+
+.closing {
+  transform: rotate(45deg);
+}
+
+.opened {
+  transform: rotate(90deg);
+  transition-delay: 0.2s;
+}
+
+.modal-container {
+  background: grey;
+  border-radius: 16px;
+  transform: scale(0);
+  /* opacity: 0; */
+  transition: all 100ms ease-in-out;
+}
+
+.modal-open {
+  transform: scale(1);
+}
+.modal-closing {
+  transition-delay: 0.3s;
+}
+
+html {
+  font-family: system-ui, sans-serif;
+  background-color: #f6f6f6;
+}
+.shadow {
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 8%), 0 2px 2px hsl(0deg 0% 0% / 8%),
+    0 4px 4px hsl(0deg 0% 0% / 8%), 0 8px 8px hsl(0deg 0% 0% / 8%),
+    0 16px 16px hsl(0deg 0% 0% / 8%);
+}
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+  -webkit-animation: fadeIn 1s ease-in-out;
+  -moz-animation: fadeIn 1s ease-in-out;
+  -o-animation: fadeIn 1s ease-in-out;
+  -ms-animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
