@@ -3,28 +3,20 @@ import { useState } from 'preact/hooks'
 import Modal from './Modal'
 
 import Card from './Card'
-
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-  },
-}
+import data from '../assets/data.json'
 
 const App = () => {
   const [modalIsOpen, setIsOpen] = useState(false)
+  const [cardData, setData] = useState(null)
 
-  function openModal() {
+  function openModal(index) {
     setIsOpen(true)
+    setData(data[index])
   }
 
   return (
-    <main class="sm:px-0 px-4 flex">
-      <div class="w-72">FILTER</div>
+    <main class="sm:px-0 px-4 flex min-h-screen">
+      <div class="w-72 hidden">FILTER</div>
       <div class="max-w-7xl mx-4 fade-in duration-200">
         <div class="rhomboid rounded bg-red-500 mt-8">
           <div class="sm:text-5xl title px-3 py-2 text-4xl text-white font-header">
@@ -34,13 +26,14 @@ const App = () => {
         <div class="ml-1 mt-1 text-neutral-700 opacity-80 text-sm">
           It ain't much but it's honest work
         </div>
-        <div class="mt-12">
+        <div class="mt-8">
           <div class="grid lg:grid-cols-4 2xl:grid-cols-5 grid-cols-2 lg:gap-x-6 gap-x-4 lg:gap-y-2 gap-y-1 lg:col-span-3">
-            <Card onClick={openModal} />
-            <Card onClick={openModal} />
+            {data.map((animal, i) => (
+              <Card key={animal.short_name} onClick={openModal} i={i} content={animal} />
+            ))}
           </div>
         </div>
-        <Modal content="hello" modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
+        <Modal content={cardData} modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
       </div>
     </main>
   )

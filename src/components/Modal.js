@@ -1,9 +1,11 @@
 import { h } from 'preact'
 import { useState } from 'preact/hooks'
 import Modal from 'react-modal'
-import CrossSVG from '../assets/cross.svg'
 
-const imageUrl = 'http://d3my2e9fyh34tb.cloudfront.net/biscuit_sea_star.jpg'
+import ModalCard from './ModalCard'
+import CrossSVG from '../assets/cross.svg'
+import LinkSVG from '../assets/external-link.svg'
+
 const customStyles = {
   content: {
     top: '50%',
@@ -40,6 +42,22 @@ function CloseButton({ closeModal, isClosing, modalHasOpen }) {
   )
 }
 
+function Tag({ children }) {
+  return (
+    <div className="rounded bg-black bg-opacity-10 py-2 px-3 leading-none uppercase text-sm">
+      {children}
+    </div>
+  )
+}
+function TagContainer({ children, header }) {
+  return (
+    <div className="bg-white bg-opacity-20 p-2 pt-1 rounded mb-2">
+      <p className="text-xs mb-1 inline opacity-60">{header}</p>
+      {children}
+    </div>
+  )
+}
+
 export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
   const [modalHasOpen, setHasOpen] = useState(false)
 
@@ -62,6 +80,27 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
     modalClasses = 'modal-container overflow-hidden modal-closing'
   }
 
+  if (!content) return null
+
+  const locations = content.locations.map(location => (
+    <Tag key={location}>{location}</Tag>
+  ))
+  const links = content.link.map(link => (
+    <a
+      key={link.name}
+      href={link.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:opacity-70"
+    >
+      <Tag>
+        <div className="flex justify-between items-center">
+          <p>{link.name}</p> <img className="w-3" src={LinkSVG} />
+        </div>
+      </Tag>
+    </a>
+  ))
+
   return (
     <Modal
       isOpen={modalIsOpen}
@@ -77,11 +116,40 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
           isClosing={!modalIsOpen}
           modalHasOpen={modalHasOpen}
         />
-        <div className="flex">
-          <div className="">
-            <img src={imageUrl} className="w-[620px] h-[620px]" alt="descriptive text" />
+        <div className="grid md:grid-cols-12 grid-cols-1">
+          <div className="col-span-6">
+            <img
+              src={content.image}
+              className="border-r-2 border-slate-800"
+              alt={content.short_name}
+            />
           </div>
-          <div className="w-[620px] h-[620px]">{content}</div>
+          <div className="col-span-6 flex flex-col">
+            <div className="h-full w-full flex flex-col">
+              <div className="mt-8 mx-6 bg-black bg-opacity-10 pl-4 pb-2 pt-3 rounded text-sm">
+                <p className="leading-none opacity-60 uppercase">
+                  {content.scientific_name}
+                </p>
+                <p className="font-header text-2xl uppercase tracking-wide">
+                  {content.short_name}
+                </p>
+              </div>
+              <div className="flex flex-col grow justify-between">
+                <div className="mx-6 lg:grid-cols-2 gap-3 grid grid-cols-1 mt-12">
+                  <ModalCard header="CATEGORY" text={content.category} />
+                  <ModalCard header="TYPE" text={content.type} />
+                </div>
+                <div className="mx-6 mb-4">
+                  <TagContainer header="SIGHTED AT">
+                    <div className="grid grid-cols-4 gap-2 ">{locations}</div>
+                  </TagContainer>
+                  <TagContainer header="MORE INFO">
+                    <div className="grid grid-cols-3 gap-2 ">{links}</div>
+                  </TagContainer>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Modal>

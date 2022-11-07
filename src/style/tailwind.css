@@ -5,6 +5,14 @@
 main {
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(
+    to left top,
+    #fff6f4,
+    #fff2ee,
+    #ffede9,
+    #ffe9e3,
+    #ffe5dd
+  );
 }
 h1 {
   font-size: 3rem;
@@ -105,8 +113,9 @@ h1 {
 }
 
 .modal-container {
-  background: grey;
+  background: rgb(223, 223, 221);
   border-radius: 16px;
+  border: 4px solid rgb(30, 41, 59);
   transform: scale(0);
   /* opacity: 0; */
   transition: all 100ms ease-in-out;
