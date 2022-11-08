@@ -5,7 +5,7 @@
     "scientific_name": "Goniodiscaster scaber",
     "type": "Stelleroida",
     "locations": ["CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/biscuit_sea_star.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/biscuit_sea_star.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -19,7 +19,7 @@
     "scientific_name": "Arachnoides placenta",
     "type": "Echinoidea",
     "locations": ["CHANGI 6", "CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/cake_sand_dollar.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/cake_sand_dollar.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -33,7 +33,7 @@
     "scientific_name": "Stichodactyla haddoni",
     "type": "Anthozoa",
     "locations": ["CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/haddens_carpet_anemone.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/haddens_carpet_anemone.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -47,7 +47,7 @@
     "scientific_name": "Protoreaster nodosus",
     "type": "Stelleroida",
     "locations": ["CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/knobbly_sea_star.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/knobbly_sea_star.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -61,7 +61,7 @@
     "scientific_name": "Perna viridis",
     "type": "Bivalvia",
     "locations": ["CHANGI 6", "CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/mussel.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/mussel.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -75,7 +75,7 @@
     "scientific_name": "Cymbiola nobilis",
     "type": "Gastropoda",
     "locations": ["CHANGI 6", "CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/noble_volute.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/noble_volute.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -89,7 +89,7 @@
     "scientific_name": "Clibanarius infraspinatus",
     "type": "Malacostraca",
     "locations": ["CHANGI 6", "CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/orange_striped_hermit_crab.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/orange_striped_hermit_crab.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -103,7 +103,7 @@
     "scientific_name": "Littorinidae",
     "type": "Gastropoda",
     "locations": ["CHANGI 6", "CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/periwinkles_snail.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/periwinkles_snail.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -117,7 +117,7 @@
     "scientific_name": "Cercodemas anceps",
     "type": "Holothuroidea",
     "locations": ["CHANGI 6", "CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/pink_warty_sea_cucumber.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/pink_warty_sea_cucumber.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -131,7 +131,7 @@
     "scientific_name": "Polycarpa sp.",
     "type": "Ascidiacea",
     "locations": ["CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/sea_squirt.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/sea_squirt.jpg",
     "link": [
       {
         "name": "Wild Singapore",
@@ -145,7 +145,7 @@
     "scientific_name": "Salmacis sphaeroides",
     "type": "Echinoidea",
     "locations": ["CHANGI 7"],
-    "image": "http://d3my2e9fyh34tb.cloudfront.net/white_slamacis_urchin.jpg",
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/white_slamacis_urchin.jpg",
     "link": [
       {
         "name": "Wild Singapore",

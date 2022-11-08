@@ -19,7 +19,7 @@ const App = () => {
       <div class="w-72 hidden">FILTER</div>
       <div class="max-w-7xl mx-4 fade-in duration-200">
         <div class="rhomboid rounded bg-red-500 sm:mt-8 mt-6">
-          <div class="sm:text-5xl title px-3 py-2 text-3xl text-white font-header">
+          <div class="sm:text-5xl title px-3 py-2 text-3xl text-white font-header leading-none">
             ANIMAL SIGHTINGS
           </div>
         </div>

@@ -109,7 +109,7 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
       style={customStyles}
       closeTimeoutMS={500}
       ariaHideApp={false}
-      className="absolute lg:w-full w-11/12 max-w-7xl outline-0"
+      className="absolute lg:w-full w-10/12 max-w-7xl outline-0"
     >
       <div className={modalClasses}>
         <CloseButton
@@ -131,7 +131,7 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
                 <p className="leading-none opacity-60 uppercase">
                   {content.scientific_name}
                 </p>
-                <p className="font-header text-2xl uppercase tracking-wide">
+                <p className="font-header sm:text-2xl text-xl uppercase tracking-wide leading-none">
                   {content.short_name}
                 </p>
               </div>
