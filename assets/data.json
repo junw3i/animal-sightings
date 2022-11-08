@@ -1,0 +1,156 @@
+[
+  {
+    "category": "Starfish",
+    "short_name": "Biscuit Sea Star",
+    "scientific_name": "Goniodiscaster scaber",
+    "type": "Stelleroida",
+    "locations": ["CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/biscuit_sea_star.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/echinodermata/asteroidea/goniodiscaster.htm"
+      }
+    ]
+  },
+  {
+    "category": "Sand Dollar",
+    "short_name": "Cake Sand Dollar",
+    "scientific_name": "Arachnoides placenta",
+    "type": "Echinoidea",
+    "locations": ["CHANGI 6", "CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/cake_sand_dollar.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/echinodermata/echinoidea/sandollar/arachnoides.htm"
+      }
+    ]
+  },
+  {
+    "category": "Sea Anemone",
+    "short_name": "Haddon's Carpet Anemone",
+    "scientific_name": "Stichodactyla haddoni",
+    "type": "Anthozoa",
+    "locations": ["CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/haddens_carpet_anemone.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/cnidaria/actiniaria/haddoni.htm"
+      }
+    ]
+  },
+  {
+    "category": "Starfish",
+    "short_name": "Knobbly Sea Star",
+    "scientific_name": "Protoreaster nodosus",
+    "type": "Stelleroida",
+    "locations": ["CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/knobbly_sea_star.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/echinodermata/asteroidea/protoreaster.htm"
+      }
+    ]
+  },
+  {
+    "category": "Mussel",
+    "short_name": "Green Mussel",
+    "scientific_name": "Perna viridis",
+    "type": "Bivalvia",
+    "locations": ["CHANGI 6", "CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/mussel.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/mollusca/bivalvia/mytilidae/viridis.htm"
+      }
+    ]
+  },
+  {
+    "category": "Sea Snail",
+    "short_name": "Noble Volute",
+    "scientific_name": "Cymbiola nobilis",
+    "type": "Gastropoda",
+    "locations": ["CHANGI 6", "CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/noble_volute.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/mollusca/gastropoda/volutidae/nobilis.htm"
+      }
+    ]
+  },
+  {
+    "category": "Crab-like",
+    "short_name": "Orange-Stripped Hermit Crab",
+    "scientific_name": "Clibanarius infraspinatus",
+    "type": "Malacostraca",
+    "locations": ["CHANGI 6", "CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/orange_striped_hermit_crab.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/crustacea/othercrust/anomura/hermit/stripeorange.htm"
+      }
+    ]
+  },
+  {
+    "category": "Sea Snail",
+    "short_name": "Periwinkle",
+    "scientific_name": "Littorinidae",
+    "type": "Gastropoda",
+    "locations": ["CHANGI 6", "CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/periwinkles_snail.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/mollusca/gastropoda/littorinidae/littorinidae.htm"
+      }
+    ]
+  },
+  {
+    "category": "Sea Cucumber",
+    "short_name": "Pink Warty Sea Cucumber",
+    "scientific_name": "Cercodemas anceps",
+    "type": "Holothuroidea",
+    "locations": ["CHANGI 6", "CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/pink_warty_sea_cucumber.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/echinodermata/holothuroidea/cercodemas.htm"
+      }
+    ]
+  },
+  {
+    "category": "Sea Squirt",
+    "short_name": "Thumbs-up Sea Squirt",
+    "scientific_name": "Polycarpa sp.",
+    "type": "Ascidiacea",
+    "locations": ["CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/sea_squirt.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/ascidiacea/polycarpa.htm"
+      }
+    ]
+  },
+  {
+    "category": "Sea Urchin",
+    "short_name": "White Salmacis Urchin",
+    "scientific_name": "Salmacis sphaeroides",
+    "type": "Echinoidea",
+    "locations": ["CHANGI 7"],
+    "image": "http://d3my2e9fyh34tb.cloudfront.net/white_slamacis_urchin.jpg",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/ascidiacea/polycarpa.htm"
+      }
+    ]
+  }
+]
