@@ -3,6 +3,7 @@
   "name": "sightings",
   "version": "0.0.0",
   "license": "MIT",
+  "homepage": "https://junw3i.github.io/animal-sightings",
   "scripts": {
     "build": "preact build",
     "update-template": "preact build --template src/template.html",
@@ -12,7 +13,9 @@
     "test": "jest",
     "tw:watch": "npx tailwindcss -i src/style/tailwind.css -c tailwind.config.js -o src/style/index.css --watch",
     "tw:build": "NODE_ENV=production npx tailwindcss -i src/style/tailwind.css -c tailwind.config.js -o src/style/index.css --minify",
-    "sync": "aws s3 sync s3/ s3://animal-sightings"
+    "sync": "aws s3 sync s3/ s3://animal-sightings",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "preact",
@@ -25,6 +28,7 @@
     "enzyme-adapter-preact-pure": "^2.0.0",
     "eslint": "^6.0.1",
     "eslint-config-preact": "^1.1.0",
+    "gh-pages": "^4.0.0",
     "jest": "^24.9.0",
     "jest-preset-preact": "^1.0.0",
     "preact-cli": "^3.0.0",

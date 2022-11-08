@@ -51,7 +51,7 @@ function Tag({ children }) {
 }
 function TagContainer({ children, header }) {
   return (
-    <div className="bg-white bg-opacity-20 p-2 pt-1 rounded mb-2">
+    <div className="bg-white bg-opacity-20 p-2 pt-1 rounded mt-2">
       <p className="text-xs mb-1 inline opacity-60">{header}</p>
       {children}
     </div>
@@ -109,6 +109,7 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
       style={customStyles}
       closeTimeoutMS={500}
       ariaHideApp={false}
+      className="absolute lg:w-full w-11/12 max-w-7xl outline-0"
     >
       <div className={modalClasses}>
         <CloseButton
@@ -124,9 +125,9 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
               alt={content.short_name}
             />
           </div>
-          <div className="col-span-6 flex flex-col">
+          <div className="col-span-6 flex flex-col max-h-[50vh] overflow-y-auto">
             <div className="h-full w-full flex flex-col">
-              <div className="mt-8 mx-6 bg-black bg-opacity-10 pl-4 pb-2 pt-3 rounded text-sm">
+              <div className="sm:mt-8 mt-4 mx-6 bg-black bg-opacity-10 pl-4 pb-2 pt-3 rounded text-sm">
                 <p className="leading-none opacity-60 uppercase">
                   {content.scientific_name}
                 </p>
@@ -135,16 +136,18 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
                 </p>
               </div>
               <div className="flex flex-col grow justify-between">
-                <div className="mx-6 lg:grid-cols-2 gap-3 grid grid-cols-1 mt-12">
+                <div className="mx-6 lg:grid-cols-2 sm:gap-3 gap-2 grid grid-cols-1 sm:mt-12 mt-2">
                   <ModalCard header="CATEGORY" text={content.category} />
                   <ModalCard header="TYPE" text={content.type} />
                 </div>
                 <div className="mx-6 mb-4">
                   <TagContainer header="SIGHTED AT">
-                    <div className="grid grid-cols-4 gap-2 ">{locations}</div>
+                    <div className="grid sm:grid-cols-4 grid-cols-2 gap-2 ">
+                      {locations}
+                    </div>
                   </TagContainer>
                   <TagContainer header="MORE INFO">
-                    <div className="grid grid-cols-3 gap-2 ">{links}</div>
+                    <div className="grid sm:grid-cols-3 grid-cols-1 gap-2 ">{links}</div>
                   </TagContainer>
                 </div>
               </div>
