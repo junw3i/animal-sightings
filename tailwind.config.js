@@ -7,9 +7,6 @@ module.exports = {
       colors: {
         greyish: 'rgb(223, 223, 221)',
       },
-      fontFamily: {
-        header: ['Concert One', 'monospace'],
-      },
     },
   },
   variants: {

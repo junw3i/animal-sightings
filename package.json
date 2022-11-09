@@ -14,7 +14,7 @@
     "tw:watch": "npx tailwindcss -i src/style/tailwind.css -c tailwind.config.js -o src/style/index.css --watch",
     "tw:build": "NODE_ENV=production npx tailwindcss -i src/style/tailwind.css -c tailwind.config.js -o src/style/index.css --minify",
     "sync": "aws s3 sync s3/ s3://animal-sightings",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run tw:build && npm run build && firebase deploy",
     "predeploy": "npm run build"
   },
   "eslintConfig": {
