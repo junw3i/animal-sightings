@@ -6,6 +6,8 @@
     "type": "Stelleroida",
     "locations": ["CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/biscuit_sea_star.jpg",
+    "diet": "Micro-Organisms",
+    "size": "5cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -20,6 +22,8 @@
     "type": "Echinoidea",
     "locations": ["CHANGI 6", "CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/cake_sand_dollar.jpg",
+    "diet": "Micro-Organisms",
+    "size": "6cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -34,6 +38,8 @@
     "type": "Anthozoa",
     "locations": ["CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/haddens_carpet_anemone.jpg",
+    "diet": "Sunlight, Small Animals",
+    "size": "45cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -48,6 +54,8 @@
     "type": "Stelleroida",
     "locations": ["CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/knobbly_sea_star.jpg",
+    "diet": "Micro to Small Organisms",
+    "size": "20cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -62,6 +70,8 @@
     "type": "Bivalvia",
     "locations": ["CHANGI 6", "CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/mussel.jpg",
+    "diet": "Micro-Organisms",
+    "size": "7cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -76,6 +86,8 @@
     "type": "Gastropoda",
     "locations": ["CHANGI 6", "CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/noble_volute.jpg",
+    "diet": "Micro-Organisms",
+    "size": "8cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -90,6 +102,8 @@
     "type": "Malacostraca",
     "locations": ["CHANGI 6", "CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/orange_striped_hermit_crab.jpg",
+    "diet": "Scavenger",
+    "size": "4cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -104,6 +118,8 @@
     "type": "Gastropoda",
     "locations": ["CHANGI 6", "CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/periwinkles_snail.jpg",
+    "diet": "Micro-Organisms",
+    "size": "2cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -118,6 +134,8 @@
     "type": "Holothuroidea",
     "locations": ["CHANGI 6", "CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/pink_warty_sea_cucumber.jpg",
+    "diet": "Micro to Small Organisms",
+    "size": "7cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -132,6 +150,8 @@
     "type": "Ascidiacea",
     "locations": ["CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/sea_squirt.jpg",
+    "diet": "Filter Feeder",
+    "size": "4cm",
     "link": [
       {
         "name": "Wild Singapore",
@@ -146,10 +166,12 @@
     "type": "Echinoidea",
     "locations": ["CHANGI 7"],
     "image": "https://d3my2e9fyh34tb.cloudfront.net/white_slamacis_urchin.jpg",
+    "diet": "Seagrass",
+    "size": "6cm",
     "link": [
       {
         "name": "Wild Singapore",
-        "link": "http://www.wildsingapore.com/wildfacts/ascidiacea/polycarpa.htm"
+        "link": "http://www.wildsingapore.com/wildfacts/echinodermata/echinoidea/urchin/sphaeroides.htm"
       }
     ]
   }

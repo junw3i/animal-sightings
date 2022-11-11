@@ -125,7 +125,7 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
               alt={content.short_name}
             />
           </div>
-          <div className="col-span-6 flex flex-col max-h-[50vh] overflow-y-auto">
+          <div className="col-span-6 flex flex-col max-h-[45vh] overflow-y-auto">
             <div className="h-full w-full flex flex-col">
               <div className="sm:mt-8 mt-4 mx-6 bg-black bg-opacity-10 pl-4 pb-2 pt-3 rounded text-sm">
                 <p className="leading-none opacity-60 uppercase">
@@ -139,6 +139,8 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
                 <div className="mx-6 lg:grid-cols-2 sm:gap-3 gap-2 grid grid-cols-1 sm:mt-12 mt-2">
                   <ModalCard header="CATEGORY" text={content.category} />
                   <ModalCard header="TYPE" text={content.type} />
+                  <ModalCard header="DIET" text={content.diet} />
+                  <ModalCard header="SIZE" text={content.size} />
                 </div>
                 <div className="mx-6 mb-4">
                   <TagContainer header="SIGHTED AT">

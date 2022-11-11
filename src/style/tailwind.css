@@ -151,3 +151,30 @@ html {
     opacity: 100%;
   }
 }
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.hidden-card {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show-card {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
