@@ -174,5 +174,37 @@
         "link": "http://www.wildsingapore.com/wildfacts/echinodermata/echinoidea/urchin/sphaeroides.htm"
       }
     ]
+  },
+  {
+    "category": "Land Snail",
+    "short_name": "Giant African Snail",
+    "scientific_name": "Lissachatina fulica",
+    "type": "Gastropoda",
+    "locations": ["EVERYWHERE"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/giant_african_snail.jpg",
+    "diet": "Succulent plants",
+    "size": "6cm",
+    "link": [
+      {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Lissachatina_fulica"
+      }
+    ]
+  },
+  {
+    "category": "Honey Bee",
+    "short_name": "Black Dwarf Honey Bee",
+    "scientific_name": "Apis andreniformis",
+    "type": "Insecta",
+    "locations": ["HOME"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/black_dwarf_honey_bee.jpg",
+    "diet": "Pollen, nectar",
+    "size": "0.9cm",
+    "link": [
+      {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Apis_andreniformis"
+      }
+    ]
   }
 ]

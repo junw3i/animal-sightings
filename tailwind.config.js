@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       colors: {
         greyish: 'rgb(223, 223, 221)',
+        orangey: '#5C33F6',
+        purplish: '#B983FF',
       },
     },
   },

@@ -37,7 +37,7 @@ const Card = ({ onClick, i, content, rf, isVisible }) => {
         height="360"
         width="360"
         loading="lazy"
-        class="rounded shadow border-solid border-2 border-neutral-700 lg:group-hover:scale-105 duration-300"
+        class="rounded shadow border-solid border-4 border-neutral-700 lg:group-hover:scale-105 duration-300"
       />
       <div class="mt-3 text-sm uppercase text-neutral-700 opacity-80">
         {content.category}

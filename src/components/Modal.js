@@ -51,7 +51,7 @@ function Tag({ children }) {
 }
 function TagContainer({ children, header }) {
   return (
-    <div className="bg-white bg-opacity-20 p-2 pt-1 rounded mt-2">
+    <div className="p-2 pt-1 rounded mt-2 shadow-bk bg-purplish bg-opacity-70 border-2 border-slate-800">
       <p className="text-xs mb-1 inline opacity-60">{header}</p>
       {children}
     </div>
@@ -72,9 +72,9 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
     }, 200)
   }
 
-  let modalClasses = 'modal-container overflow-hidden'
+  let modalClasses = 'modal-container overflow-hidden shadow'
   if (modalHasOpen) {
-    modalClasses = 'modal-container overflow-hidden modal-open'
+    modalClasses = 'modal-container overflow-hidden modal-open shadow'
   }
   if (!modalIsOpen) {
     modalClasses = 'modal-container overflow-hidden modal-closing'
@@ -121,13 +121,13 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
           <div className="col-span-6">
             <img
               src={content.image}
-              className="border-r-2 border-slate-800"
+              className="border-b-4 sm:border-r-4 border-slate-800"
               alt={content.short_name}
             />
           </div>
-          <div className="col-span-6 flex flex-col max-h-[45vh] overflow-y-auto">
+          <div className="col-span-6 flex flex-col max-h-[45vh] sm:max-h-full overflow-y-auto">
             <div className="h-full w-full flex flex-col">
-              <div className="sm:mt-8 mt-4 mx-6 bg-black bg-opacity-10 pl-4 pb-2 pt-3 rounded text-sm">
+              <div className="sm:mt-8 mt-4 mx-6 bg-white border-2 border-black pl-4 pb-2 pt-3 rounded text-sm shadow-bk">
                 <p className="leading-none opacity-60 uppercase">
                   {content.scientific_name}
                 </p>
@@ -135,7 +135,7 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
                   {content.short_name}
                 </p>
               </div>
-              <div className="flex flex-col grow justify-between">
+              <div className="flex flex-col grow justify-between h-full sm:h-0">
                 <div className="mx-6 lg:grid-cols-2 sm:gap-3 gap-2 grid grid-cols-1 sm:mt-12 mt-2">
                   <ModalCard header="CATEGORY" text={content.category} />
                   <ModalCard header="TYPE" text={content.type} />
