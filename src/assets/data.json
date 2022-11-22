@@ -206,5 +206,37 @@
         "link": "https://en.wikipedia.org/wiki/Apis_andreniformis"
       }
     ]
+  },
+  {
+    "category": "Elephant",
+    "short_name": "Asian Elephant",
+    "scientific_name": "Elephas maximus",
+    "type": "Mammalia",
+    "locations": ["ZOO"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/asian_elephant.jpg",
+    "diet": "Plant matter",
+    "size": "2.5m",
+    "link": [
+      {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Asian_elephant"
+      }
+    ]
+  },
+  {
+    "category": "Turtle",
+    "short_name": "Big-headed Turtle",
+    "scientific_name": "Platysternon megacephalum",
+    "type": "Reptilia",
+    "locations": ["ZOO"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/big_headed_turtle.jpg",
+    "diet": "Fish, snail, worm",
+    "size": "25cm",
+    "link": [
+      {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Big-headed_turtle"
+      }
+    ]
   }
 ]
