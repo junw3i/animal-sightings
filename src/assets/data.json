@@ -128,7 +128,7 @@
     ]
   },
   {
-    "category": "Sea Cucumber",
+    "category": "Sea Holothuroidea",
     "short_name": "Pink Warty Sea Cucumber",
     "scientific_name": "Cercodemas anceps",
     "type": "Holothuroidea",
@@ -172,6 +172,22 @@
       {
         "name": "Wild Singapore",
         "link": "http://www.wildsingapore.com/wildfacts/echinodermata/echinoidea/urchin/sphaeroides.htm"
+      }
+    ]
+  },
+  {
+    "category": "Clam",
+    "short_name": "Fan Clam",
+    "scientific_name": "Pinnidae",
+    "type": "Bivalvia",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/fan_clam.jpg",
+    "diet": "Micro-Organisms",
+    "size": "10cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/mollusca/bivalvia/pinnidae/pinnidae.htm"
       }
     ]
   },
@@ -236,6 +252,198 @@
       {
         "name": "Wikipedia",
         "link": "https://en.wikipedia.org/wiki/Big-headed_turtle"
+      }
+    ]
+  },
+  {
+    "category": "Frog",
+    "short_name": "Black-Legged Poison Frog",
+    "scientific_name": "Phyllobates bicolor",
+    "type": "Amphibia",
+    "locations": ["ZOO"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/black_legged_poison_frog.jpg",
+    "diet": "Insects",
+    "size": "4cm",
+    "link": [
+      {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Phyllobates_bicolor"
+      }
+    ]
+  },
+  {
+    "category": "Frog",
+    "short_name": "Bumblebee Poison Frog",
+    "scientific_name": "Dendrobates leucomelas",
+    "type": "Amphibia",
+    "locations": ["ZOO"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/bumblebee_poison_frog.jpg",
+    "diet": "Insects",
+    "size": "3cm",
+    "link": [
+      {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Phyllobates_bicolor"
+      }
+    ]
+  },
+  {
+    "category": "Frog",
+    "short_name": "Dyeing Poison Frog",
+    "scientific_name": "Dendrobates tinctorius",
+    "type": "Amphibia",
+    "locations": ["ZOO"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/dyeing_poison_frog.jpg",
+    "diet": "Insects",
+    "size": "4cm",
+    "link": [
+      {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Dyeing_poison_dart_frog"
+      }
+    ]
+  },
+  {
+    "category": "Squirrel",
+    "short_name": "Finlayson's Squirrel",
+    "scientific_name": "Callosciurus finlaysonii,",
+    "type": "Mammalia",
+    "locations": ["ZOO"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/finlaysons_squirrel.jpg",
+    "diet": "Fruits",
+    "size": "20cm",
+    "link": [
+      {
+        "name": "Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Finlayson%27s_squirrel"
+      }
+    ]
+  },
+  {
+    "category": "Fish",
+    "short_name": "Seahorse",
+    "scientific_name": "Hippocampus sp.",
+    "type": "Fish",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/seahorse.jpg",
+    "diet": "Tiny crustaceans",
+    "size": "5cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/vertebrates/fish/syngnathidae/hippocampus.htm"
+      }
+    ]
+  },
+  {
+    "category": "Sea Cucumber",
+    "short_name": "Thorny Sea Cucumber",
+    "scientific_name": "Colochirus quadrangularis",
+    "type": "Holothuroidea",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/thorny_sea_cucumber.jpg",
+    "diet": "Tiny crustaceans",
+    "size": "5cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/echinodermata/holothuroidea/colochirus.htm"
+      }
+    ]
+  },
+  {
+    "category": "Egg Mass",
+    "short_name": "Sand Collar",
+    "scientific_name": "Sand collar",
+    "type": "Gastropoda",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/sand_collar.jpg",
+    "diet": "nil",
+    "size": "4cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/mollusca/gastropoda/naticidae/sandcollar.htm"
+      }
+    ]
+  },
+  {
+    "category": "Anemone",
+    "short_name": "Tiger Anemone",
+    "scientific_name": "awaiting identification",
+    "type": "Anthozoa",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/tiger_anemone.jpg",
+    "diet": "nil",
+    "size": "6cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/cnidaria/actiniaria/tiger.htm"
+      }
+    ]
+  },
+  {
+    "category": "Crab",
+    "short_name": "Flower Crab",
+    "scientific_name": "Portunus pelagicus",
+    "type": "Malacostraca",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/flower_crab.jpg",
+    "diet": "Snails, clams",
+    "size": "8cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/crustacea/crab/portunidae/pelagicus.htm"
+      }
+    ]
+  },
+  {
+    "category": "Jellyfish",
+    "short_name": "Jellyfish",
+    "scientific_name": "Scyphozoa",
+    "type": "Scyphozoa",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/jellyfish.jpg",
+    "diet": "Plankton",
+    "size": "5cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/cnidaria/others/jellyfish/jellyfish.htm"
+      }
+    ]
+  },
+  {
+    "category": "Worm",
+    "short_name": "Acorn",
+    "scientific_name": "Enteropneusta",
+    "type": "Enteropneusta",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/acorn.jpg",
+    "diet": "Mud, sand",
+    "size": "20cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/worm/enteropneusta/enteropneusta.htm"
+      }
+    ]
+  },
+  {
+    "category": "Crab-like",
+    "short_name": "Mangrove Horseshoe Crab",
+    "scientific_name": "Carcinoscorpius rotundicauda",
+    "type": "Merostomata",
+    "locations": ["CHANGI 6"],
+    "image": "https://d3my2e9fyh34tb.cloudfront.net/horseshoe_crab.jpg",
+    "diet": "Clams, crustaceans",
+    "size": "15cm",
+    "link": [
+      {
+        "name": "Wild Singapore",
+        "link": "http://www.wildsingapore.com/wildfacts/arthropoda/limulidae/carcinoscorpius.htm"
       }
     ]
   }
