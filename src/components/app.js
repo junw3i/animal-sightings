@@ -58,13 +58,12 @@ const App = () => {
 
       <div class="max-w-7xl mx-4">
         <div class={headerClassName}>
-          <div class={`rhomboid rounded bg-red-500 sm:mt-8 mt-6`}>
+          <div
+            class={`rhomboid rounded bg-red-500 sm:mt-8 mt-6 border-solid border-4 border-neutral-700 shadow`}
+          >
             <div class="sm:text-5xl title px-3 py-2 text-3xl text-white font-bold leading-none">
               ANIMAL SIGHTINGS
             </div>
-          </div>
-          <div class="ml-1 mt-1 text-neutral-700 opacity-80 text-sm">
-            It ain't much but it's honest work
           </div>
         </div>
         <div class="sm:mt-8 mt-6">
@@ -80,6 +79,18 @@ const App = () => {
               />
             ))}
           </div>
+        </div>
+        <div class="my-5 uppercase font-bold text-neutral-600 leading-tight text-center shadow-text">
+          Spot any mistakes or just want to chat? Reach out to me on{' '}
+          <a
+            class="text-red-500"
+            href="https://t.me/SeverusCuckoo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            telegram
+          </a>
+          .
         </div>
         <Modal content={cardData} modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
       </div>

@@ -49,37 +49,18 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  -webkit-transform: skew(20deg);
-  -moz-transform: skew(20deg);
-  -o-transform: skew(20deg);
-  animation: skew 3s infinite;
-  transform: skew(20deg);
+  -webkit-transform: skew(10deg);
+  -moz-transform: skew(10deg);
+  -o-transform: skew(10deg);
+  transform: skew(10deg);
   animation-direction: alternate;
 }
 .title {
-  -webkit-transform: skew(-20deg);
-  -moz-transform: skew(-20deg);
-  -o-transform: skew(-20deg);
-  transform: skew(-20deg);
-  animation: skew-inverse 3s infinite;
+  -webkit-transform: skew(-10deg);
+  -moz-transform: skew(-10deg);
+  -o-transform: skew(-10deg);
+  transform: skew(-10deg);
   animation-direction: alternate;
-}
-
-@keyframes skew {
-  0% {
-    transform: skewX(20deg);
-  }
-  100% {
-    transform: skewX(-20deg);
-  }
-}
-@keyframes skew-inverse {
-  0% {
-    transform: skewX(-20deg);
-  }
-  100% {
-    transform: skewX(20deg);
-  }
 }
 
 .ReactModal__Overlay {
@@ -185,4 +166,8 @@ html {
 
 .shadow-bk {
   box-shadow: rgba(0, 0, 0, 0.6) 4px 4px;
+}
+
+.shadow-text {
+  text-shadow: rgba(240, 46, 170, 0.2) 2px 2px;
 }
