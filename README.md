@@ -2,7 +2,7 @@
 
 ## CLI Commands
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -18,5 +18,8 @@ npm run serve
 # run tests with jest and enzyme
 npm run test
 ```
+
+`nvm use 16.19.1`
+`npm run tw:watch`
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
