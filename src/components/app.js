@@ -125,8 +125,8 @@ const App = () => {
           <div
             class={`rhomboid rounded bg-red-500 sm:mt-8 mt-6 border-solid border-4 border-neutral-700 shadow`}
           >
-            <div class="sm:text-5xl title px-3 py-2 text-3xl text-white font-bold leading-none">
-              INTRIGUING SIGHTINGS
+            <div class="sm:text-5xl title px-8 py-2 text-3xl text-white font-bold leading-none">
+              SIGNS OF LIFE
             </div>
           </div>
           <div class="mt-10 shadow flex w-fit">

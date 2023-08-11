@@ -384,6 +384,22 @@
           "link": "https://en.wikipedia.org/wiki/Duttaphrynus_melanostictus"
         }
       ]
+    },
+    {
+      "category": "Oyster",
+      "short_name": "Rock Oyster",
+      "scientific_name": "Duttaphrynus melanostictus",
+      "type": "Bivalvia",
+      "locations": ["UBIN"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/rock_oysters.jpg",
+      "diet": "Detritus",
+      "size": "17cm",
+      "link": [
+        {
+          "name": "Wild Singapore",
+          "link": "http://www.wildsingapore.com/wildfacts/mollusca/bivalvia/ostreidae/plain.htm"
+        }
+      ]
     }
   ],
   "plants": [],
@@ -471,7 +487,7 @@
     {
       "category": "Squirrel",
       "short_name": "Finlayson's Squirrel",
-      "scientific_name": "Callosciurus finlaysonii,",
+      "scientific_name": "Callosciurus finlaysonii",
       "type": "Mammalia",
       "locations": ["ZOO"],
       "image": "https://d3my2e9fyh34tb.cloudfront.net/finlaysons_squirrel.jpg",
@@ -481,6 +497,22 @@
         {
           "name": "Wikipedia",
           "link": "https://en.wikipedia.org/wiki/Finlayson%27s_squirrel"
+        }
+      ]
+    },
+    {
+      "category": "Butterfly",
+      "short_name": "Red Lacewing",
+      "scientific_name": "Cethosia biblis",
+      "type": "Insecta",
+      "locations": ["ZOO"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/red_lacewing.jpg",
+      "diet": "Fruits",
+      "size": "5cm",
+      "link": [
+        {
+          "name": "Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Cethosia_biblis"
         }
       ]
     }
