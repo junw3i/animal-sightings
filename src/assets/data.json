@@ -402,8 +402,57 @@
       ]
     }
   ],
-  "plants": [],
+  "plants": [
+    {
+      "category": "Creeper",
+      "short_name": "Green Bean",
+      "scientific_name": "Vigna radiata (L.) R.Wilczek",
+      "type": "Fabaceae",
+      "locations": ["HOME"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/green_bean.jpeg",
+      "diet": "Sun",
+      "size": "30cm",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/5/8/5888"
+        }
+      ]
+    },
+    {
+      "category": "Shrub",
+      "short_name": "Red Chilli",
+      "scientific_name": "Capsicum frutescens",
+      "type": "Solanaceae",
+      "locations": ["HOME"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/chilli.jpeg",
+      "diet": "Sun",
+      "size": "100cm",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/5/2/5206"
+        }
+      ]
+    }
+  ],
   "captive": [
+    {
+      "category": "Cat",
+      "short_name": "Ragdoll",
+      "scientific_name": "",
+      "type": "Mammalia",
+      "locations": ["OFFICE"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/ragdoll.jpeg",
+      "diet": "Cat food",
+      "size": "",
+      "link": [
+        {
+          "name": "Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Ragdoll"
+        }
+      ]
+    },
     {
       "category": "Elephant",
       "short_name": "Asian Elephant",

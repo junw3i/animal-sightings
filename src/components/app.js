@@ -140,7 +140,7 @@ const App = () => {
               class={activeTab === 'plants' ? activeCss : inactiveCss}
               onClick={() => handleClickTab('plants')}
             >
-              PLANTS
+              FLORA
             </div>
             <div
               class={activeTab === 'lame' ? activeCss : inactiveCss}
