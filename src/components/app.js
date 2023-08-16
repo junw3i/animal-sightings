@@ -143,7 +143,7 @@ const App = () => {
               FLORA
             </div>
             <div
-              class={activeTab === 'lame' ? activeCss : inactiveCss}
+              class={activeTab === 'captive' ? activeCss : inactiveCss}
               onClick={() => handleClickTab('captive')}
             >
               CAPTIVE
