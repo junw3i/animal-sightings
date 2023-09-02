@@ -400,6 +400,22 @@
           "link": "http://www.wildsingapore.com/wildfacts/mollusca/bivalvia/ostreidae/plain.htm"
         }
       ]
+    },
+    {
+      "category": "Starfish",
+      "short_name": "Eight-armed Luidia sea star",
+      "scientific_name": "Luidia maculata",
+      "type": "Stelleroida",
+      "locations": ["CHANGI 7"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/eight_arm_sea_star.jpeg",
+      "diet": "Micro to Small Organisms",
+      "size": "20cm",
+      "link": [
+        {
+          "name": "Wild Singapore",
+          "link": "http://www.wildsingapore.com/wildfacts/echinodermata/asteroidea/luimaculata.htm"
+        }
+      ]
     }
   ],
   "plants": [
