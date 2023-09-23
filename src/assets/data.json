@@ -416,6 +416,23 @@
           "link": "http://www.wildsingapore.com/wildfacts/echinodermata/asteroidea/luimaculata.htm"
         }
       ]
+    },
+    {
+      "category": "Ant",
+      "short_name": "Weaver Ant",
+      "scientific_name": "Oecophylla smaragdina",
+      "type": "Insecta",
+      "locations": ["CONEY ISLAND"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/weaver_ants.jpeg",
+      "diet": "Insects & tree sap",
+      "size": "1cm",
+      "link": [
+        {
+          "name": "Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Weaver_ant"
+        }
+      ],
+      "notes": "weaver ants weaving the leaves together to form a nest"
     }
   ],
   "plants": [
@@ -450,6 +467,125 @@
           "link": "https://www.nparks.gov.sg/florafaunaweb/flora/5/2/5206"
         }
       ]
+    },
+    {
+      "category": "Tree",
+      "short_name": "Sea Lettuce",
+      "scientific_name": "Scaevola taccada",
+      "type": "Goodeniaceae",
+      "locations": ["CONEY ISLAND"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/sea_lettuce.jpeg",
+      "diet": "Sun",
+      "size": "",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2431"
+        }
+      ],
+      "notes": "young leaves are supposedly edible after boiling"
+    },
+    {
+      "category": "Tree",
+      "short_name": "Sea Hibiscus",
+      "scientific_name": "Hibiscus tiliaceus L.",
+      "type": "Malvaceae",
+      "locations": ["CONEY ISLAND"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/sea_hibiscus.jpeg",
+      "diet": "Sun",
+      "size": "",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/2/9/2954"
+        }
+      ],
+      "notes": "heart shaped leaves that are concave to repell rain water. ants enjoy eating the sap from the slit of the leave found underside"
+    },
+    {
+      "category": "Tree",
+      "short_name": "Sea Almond",
+      "scientific_name": "Terminalia catappa",
+      "type": "Combretaceae",
+      "locations": ["CONEY ISLAND"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/sea_almond.jpeg",
+      "diet": "Sun",
+      "size": "",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3181"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "category": "Shrub",
+      "short_name": "Red Leea",
+      "scientific_name": "Leea rubra Blume",
+      "type": "Vitaceae",
+      "locations": ["CONEY ISLAND"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/red_leea.jpeg",
+      "diet": "Sun",
+      "size": "",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/2/1/2192"
+        }
+      ],
+      "notes": "extinct in singapore but was re-introduced"
+    },
+    {
+      "category": "Shrub",
+      "short_name": "Lantana",
+      "scientific_name": "Lantana camara",
+      "type": "Verbenaceae",
+      "locations": ["CONEY ISLAND"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/lantana.jpeg",
+      "diet": "Sun",
+      "size": "",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/2/1/2180"
+        }
+      ],
+      "notes": "also known as chicken shit plant"
+    },
+    {
+      "category": "Shrub",
+      "short_name": "Blue Snakeweed",
+      "scientific_name": "Stachytarpheta jamaicensis",
+      "type": "Verbenaceae",
+      "locations": ["CONEY ISLAND"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/blue_snakeweed.jpeg",
+      "diet": "Sun",
+      "size": "",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2475"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "category": "Shrub",
+      "short_name": "Chinese Violet",
+      "scientific_name": "Asystasia gangetica",
+      "type": "Acanthaceae",
+      "locations": ["CONEY ISLAND"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/asystasia.jpeg",
+      "diet": "Sun",
+      "size": "",
+      "link": [
+        {
+          "name": "NParks",
+          "link": "https://www.nparks.gov.sg/florafaunaweb/flora/2/4/2475"
+        }
+      ],
+      "notes": "uncommon in singapore"
     }
   ],
   "captive": [
