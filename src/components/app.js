@@ -169,16 +169,14 @@ const App = () => {
           </div>
         </div>
         <div class="my-5 uppercase font-bold text-neutral-600 leading-tight text-center shadow-text">
-          Spot any mistakes or just want to chat? Reach out to me on{' '}
           <a
             class="text-red-500"
             href="https://t.me/SeverusCuckoo"
             target="_blank"
             rel="noopener noreferrer"
           >
-            telegram
+            Contact
           </a>
-          .
         </div>
         <Modal content={cardData} modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
       </div>

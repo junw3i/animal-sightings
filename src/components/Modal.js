@@ -44,14 +44,14 @@ function CloseButton({ closeModal, isClosing, modalHasOpen }) {
 
 function Tag({ children }) {
   return (
-    <div className="rounded bg-black bg-opacity-10 py-2 px-3 leading-none uppercase text-sm">
+    <div className="rounded bg-black bg-opacity-10 py-2 px-3 leading-none uppercase text-sm mr-2">
       {children}
     </div>
   )
 }
 function TagContainer({ children, header }) {
   return (
-    <div className="p-2 pt-1 rounded mt-2 shadow-bk bg-purplish bg-opacity-70 border-2 border-slate-800">
+    <div className="p-2 pt-1 rounded shadow-bk bg-purplish bg-opacity-70 border-2 border-slate-800 col-span-2">
       <p className="text-xs mb-1 inline opacity-60">{header}</p>
       {children}
     </div>
@@ -127,26 +127,23 @@ export default function ModalComponent({ content, modalIsOpen, setIsOpen }) {
           </div>
           <div className="col-span-6 flex flex-col max-h-[45vh] sm:max-h-full overflow-y-auto">
             <div className="h-full w-full flex flex-col">
-              <div className="sm:mt-8 mt-4 mx-6 bg-white border-2 border-black pl-4 pb-2 pt-3 rounded text-sm shadow-bk">
-                <p className="leading-none opacity-60 uppercase">
-                  {content.scientific_name}
-                </p>
-                <p className="font-header sm:text-2xl text-xl uppercase tracking-wide leading-none">
-                  {content.short_name}
-                </p>
-              </div>
-              <div className="flex flex-col grow justify-between h-full sm:h-0">
-                <div className="mx-6 lg:grid-cols-2 sm:gap-3 gap-2 grid grid-cols-1 sm:mt-12 mt-2">
+              <div className="flex flex-col grow h-full sm:h-0">
+                <div className="mx-6 lg:grid-cols-2 sm:gap-3 gap-2 grid grid-cols-1 sm:mt-6 mt-2">
+                  <div className=" bg-white border-2 border-black pl-4 pb-2 pt-3 rounded text-sm shadow-bk col-span-2">
+                    <p className="leading-none opacity-60 uppercase">
+                      {content.scientific_name}
+                    </p>
+                    <p className="font-header sm:text-2xl text-xl uppercase tracking-wide leading-none">
+                      {content.short_name}
+                    </p>
+                  </div>
                   <ModalCard header="CATEGORY" text={content.category} />
                   <ModalCard header="TYPE" text={content.type} />
                   <ModalCard header="DIET" text={content.diet} />
                   <ModalCard header="SIZE" text={content.size} />
-                </div>
-                <div className="mx-6 mb-4">
                   <TagContainer header="SIGHTED AT">
-                    <div className="grid sm:grid-cols-4 grid-cols-2 gap-2 ">
-                      {locations}
-                    </div>
+                    {/* <div className="grid sm:grid-cols-4 grid-cols-2 gap-2 "> */}
+                    <div className="flex">{locations}</div>
                   </TagContainer>
                   <TagContainer header="MORE INFO">
                     <div className="grid sm:grid-cols-3 grid-cols-1 gap-2 ">{links}</div>

@@ -716,6 +716,22 @@
           "link": "https://en.wikipedia.org/wiki/Cethosia_biblis"
         }
       ]
+    },
+    {
+      "category": "Dog",
+      "short_name": "German Shepherd",
+      "scientific_name": "-",
+      "type": "Amphibia",
+      "locations": ["FRIEND'S HOUSE"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/german_sheperd.jpg",
+      "diet": "Dog food",
+      "size": "1.4m",
+      "link": [
+        {
+          "name": "Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/German_Shepherd"
+        }
+      ]
     }
   ]
 }
