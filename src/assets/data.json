@@ -721,7 +721,7 @@
       "category": "Dog",
       "short_name": "German Shepherd",
       "scientific_name": "-",
-      "type": "Amphibia",
+      "type": "Mammalia",
       "locations": ["FRIEND'S HOUSE"],
       "image": "https://d3my2e9fyh34tb.cloudfront.net/german_sheperd.jpg",
       "diet": "Dog food",
@@ -730,6 +730,22 @@
         {
           "name": "Wikipedia",
           "link": "https://en.wikipedia.org/wiki/German_Shepherd"
+        }
+      ]
+    },
+    {
+      "category": "Beetle",
+      "short_name": "Goliath Beetle",
+      "scientific_name": "-",
+      "type": "Insecta",
+      "locations": ["Student Care"],
+      "image": "https://d3my2e9fyh34tb.cloudfront.net/goliath_beetle.JPG",
+      "diet": "Tree sap & fruits",
+      "size": "10cm",
+      "link": [
+        {
+          "name": "Wikipedia",
+          "link": "https://en.wikipedia.org/wiki/Goliathus"
         }
       ]
     }
